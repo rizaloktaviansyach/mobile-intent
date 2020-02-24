@@ -4,6 +4,7 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 public class User implements Parcelable {
+    public static char[] getAge;
     private String username;
     private String name;
     private int age;
@@ -40,7 +41,7 @@ public class User implements Parcelable {
         this.username = username;
     }
 
-    public String getName() {
+    public  String getName() {
         return name;
     }
 
